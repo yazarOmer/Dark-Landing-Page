@@ -6,7 +6,7 @@ export const Button = (props: ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
     <button
       className={twMerge(
-        "h-10 px-4 text-black bg-white rounded-lg hover:bg-white/75 transition-all",
+        "h-10 px-4 text-black font-medium bg-white rounded-lg hover:bg-white/75 transition-all",
         className
       )}
     >
