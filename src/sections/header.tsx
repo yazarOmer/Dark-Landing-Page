@@ -11,7 +11,7 @@ export const Header = () => {
         </span>
         <span className="underline">Explore the demo</span>
       </div>
-      <nav className="h-20 px-4 flex items-center justify-between">
+      <nav className="h-20 px-4 max-w-7xl mx-auto flex items-center justify-between">
         <Image src={logo} alt="SaaS Logo" className="size-12" />
         <div className="hidden md:block">
           <ul className="flex items-center gap-6">

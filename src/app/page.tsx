@@ -1,5 +1,6 @@
 import { Header } from "@/sections/header";
 import { Hero } from "@/sections/hero";
+import { LogoTicker } from "@/sections/logo-ticker";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <LogoTicker />
     </>
   );
 }

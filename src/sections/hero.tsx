@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="py-[72px] md:py-24 bg-[linear-gradient(to_bottom,#200d4200_0%,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] relative overflow-clip">
       <div className="absolute bg-red-300 w-[750px] md:w-[1536px] lg:w-[2400px] h-[375px] md:h-[768px] lg:h-[1200px] border border-[#B48CDE] rounded-[100%] left-1/2 -translate-x-1/2 bg-[radial-gradient(closest-side,#000_82%,#9560EB)] top-[calc(100%-96px)] md:top-[calc(100%-120px)]"></div>
-      <div className="px-4 relative">
+      <div className="px-4 relative md:max-w-5xl lg:max-w-7xl mx-auto">
         <div className="text-center">
           <div className="border border-white/30 rounded-lg inline-flex items-center px-2 h-8 gap-3">
             <span className="bg-[linear-gradient(to_right,#F87AFF_0%,#FB93D0_25%,#FFDD99_50%,#C3F0B2_75%,#2FD8FE_100%)] bg-clip-text text-transparent">
