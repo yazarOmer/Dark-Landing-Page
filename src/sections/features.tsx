@@ -20,10 +20,8 @@ export const Features = () => {
   return (
     <section className="py-[72px] lg:py-24">
       <div className="px-4 md:max-w-5xl lg:max-w-7xl mx-auto">
-        <h1 className="text-5xl md:text-6xl text-center font-bold tracking-tighter text-white">
-          Everything you need
-        </h1>
-        <p className="mt-5 md:max-w-xl mx-auto text-xl text-center text-white/70">
+        <h1 className="section_title">Everything you need</h1>
+        <p className="section_desc">
           Enjoy customizable lists, team work tools, and smart tracking all in
           one place. Set tasks, get reminders, and see your progress simply and
           quickly.

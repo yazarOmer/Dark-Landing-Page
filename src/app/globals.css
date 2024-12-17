@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section_title {
+    @apply text-5xl md:text-6xl text-center font-bold tracking-tighter text-white;
+  }
+
+  .section_desc {
+    @apply mt-5 md:max-w-xl mx-auto text-xl text-center text-white/70;
+  }
+
+  .section_padding {
+    @apply py-[72px] md:py-24 
+  }
+}
