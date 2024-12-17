@@ -1,3 +1,4 @@
+import { FAQ } from "@/sections/faq";
 import { Features } from "@/sections/features";
 import { Header } from "@/sections/header";
 import { Hero } from "@/sections/hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <LogoTicker />
       <Features />
       <Product />
+      <FAQ />
     </>
   );
 }
