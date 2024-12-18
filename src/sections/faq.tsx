@@ -28,7 +28,7 @@ export const FAQ = () => {
         <h1 className="section_title">Frequently asked questions</h1>
         <div className="flex flex-col mt-12 max-w-[672px] mx-auto">
           {questions.map(({ title, content }) => (
-            <div className="py-7 border-b border-white/30">
+            <div key={title} className="py-7 border-b border-white/30">
               <div className="flex items-center">
                 <h3 className="flex-1 text-white font-bold text-lg">{title}</h3>
                 <svg
